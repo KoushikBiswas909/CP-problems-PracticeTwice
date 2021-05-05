@@ -1,0 +1,2 @@
+Problem Based on MODULER ARITHMETIC
+https://www.codechef.com/problems/ARRROT
