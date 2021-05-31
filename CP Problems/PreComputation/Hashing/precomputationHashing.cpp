@@ -11,7 +11,11 @@ constraints
 
 */
 
-/*#include<bits/stdc++.h>
+
+// Bruteforce Solution 
+
+
+#include<bits/stdc++.h>
 using namespace std;
 typedef long long int ll;
 
@@ -35,7 +39,13 @@ int main(){
 		cout << count <<endl;
 	}
 
-}*/
+}
+
+
+
+
+
+//Optimal Solution using Hashing.
 
 
 #include<bits/stdc++.h>
@@ -43,8 +53,11 @@ using namespace std;
 typedef long long int ll;
 
 const int n= 10^7+10;
+/* we can do hashing here because maximum array element
+is small then 10^7+10.
+A globally declared array maximum size 10^7+10 */
 
-ll hsh[n];
+ll hsh[n];// Any array declared globally, initilized with zero
 
 int main(){
 	ll N;
