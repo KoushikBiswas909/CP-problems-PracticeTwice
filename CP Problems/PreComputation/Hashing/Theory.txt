@@ -1,0 +1,11 @@
+Problem: We have to determine the frequency of elements in a given array.
+
+Approach: We will create a temp array.
+          When we are taking input from one by one, then go to input data index and increament it once
+          
+          cin >> a[i];
+          temp[a[i]]++;
+          
+          
+          
+          
