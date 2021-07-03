@@ -1,1 +1,40 @@
+Exclusive-OR Operator or XOR Oparator  (^):
 
+Exclusive-OR returns a bit value of 1 if both bits are of different (opposite) nature,
+otherwise Exclusive-OR returns 0.
+Example-- 1. 0000 ^ 0000 = 0000
+          2. 1111 ^ 0000 = 1111
+          3. 1111 ^ 1111 = 0000
+          4. 1100 ^ 1010 = 0110
+*** Properties of XOR operator ***
+(i) If you take XOR of a number with zero (0), it would return the same number again.
+    Means, n ^ 0 = n
+    Example: 6 ^ 0 = 6 (Because 110 ^ 000 = 110)
+             27 ^ 0 = 27 (Because 11011 ^ 00000 = 11011)
+(ii) If you take XOR of a number with itself, it returns 0 (zero).
+     Means, n ^ n = 0
+     Example: 6 ^ 6 = 0 (Because 110 ^ 110 = 000)
+              27 ^ 27 = 0 (Because 11011 ^ 11011 = 00000)
+              
+              
+1. We can swap the values of two variable without using any third (temp) variable.
+   Example:  a=5 , b=10 swap to varibles
+   (i) Using temp variable:
+       temp = a;
+       a = b;
+       b = temp;
+   (ii) Using XOR oparator:
+       a = a ^ b    ( a = 5 ^ 10 = 0101 ^ 1010 = 1111 = 15)
+       b = a ^ b    ( b = 15 ^ 10 = 1111 ^ 1010 = 0101 = 5)
+       a = a ^ b    ( a = 15 ^ 5 = 1111 ^ 0101 = 1010 = 10)
+        
+    Now, a = 10 , b = 5 .
+    
+2. Toggling ( Changing/flipping )  the k-th Bit ( from right ) of a binary number :
+   Question : For a given number "n" , toggle the k-th bit ( from right )
+   Solution : Let n = 27 (Binary Representation of n = 11011 )    k = 3
+              We'll use this epression for toggling : n ^ (1 << (k-1))
+              Means, 11011 ^ (00001 <<  2)
+                     11011 ^ (00100)
+                     11011 ^ 00100
+                     11111  (Decimal of 11111 = 31)
