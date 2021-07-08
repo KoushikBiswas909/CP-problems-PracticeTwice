@@ -1,0 +1,4 @@
+How to Initialize a Vector in C++
+
+https://www.geeksforgeeks.org/initialize-a-vector-in-cpp-different-ways/
+
