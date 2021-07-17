@@ -1,3 +1,6 @@
+//Example 1
+
+
 #include<bits/stdc++.h> //Include this in CP only, not in Interview
 using namespace std;
 /*
@@ -25,5 +28,27 @@ int main(){
 
 	*/
 }
+
+
+//Example 2
+
+#include<bits/stdc++.h>
+using namespace std;
+
+namespace raj{
+    int val=50;
+    int getval(){
+        return val*10;
+    }
+}
+
+int main(){
+    double val=10.1;
+    cout<<val<<endl; //Prints 10.1
+
+    cout<< raj::getval()<<endl;// Prints 500
+}
+
+
 
 
