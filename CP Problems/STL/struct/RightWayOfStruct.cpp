@@ -20,7 +20,13 @@ struct node
 };
 
 int main(){
-	node raj=new node("striver",79,90.1,"");
+	// Method 1
+	node *raj=new node("striver",79,90.1,"");
+	
+	// Method 2
+	node raj=node("striver",79,90.1,"");
+	/* any method u can follow */
+	
 	/* Now you created a self-datatype variable "raj"
 	and added value over them.
 
