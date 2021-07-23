@@ -121,6 +121,10 @@ int main(){
     ms.clear(); // Deletes entire set.
 
     auto it=ms.find(2); // Returns an iterator pointing to the first element of 2
+    
+
+    // Count the no of time a digit occars
+    ms.count(2);  // o/p-> 2 times
 
 
     /* More about erase() function
