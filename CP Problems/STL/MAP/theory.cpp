@@ -84,6 +84,9 @@ int main(){
 
 
    // ********************* Printing a Map **********************
+   cout<< mpp["raj"] <<endl; // It will print 20
+   
+   
    for(auto it:mpp){
       cout<<mpp.first<<" "<<mpp.second<<endl;
    }
