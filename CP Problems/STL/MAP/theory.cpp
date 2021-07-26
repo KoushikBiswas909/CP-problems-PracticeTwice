@@ -1,5 +1,10 @@
 // ********************           M  A  P        **********************
-/* Time complexity of all oparation in map is logN, N=size of map */
+/* A map is a set that consists of key-value pairs.
+   Time complexity of all oparation in map is O(logN), N=size of map.
+   
+   map is based on a balanced binary search tree and accessing elements
+takes O(log n) time, while unordered_map uses hashing and accessing elements
+takes O(1) time on average.*/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -91,6 +96,12 @@ int main(){
       cout<< mpp->first <<" "<< mpp->second<<endl;
    }
    /* here we used iterator method to print */
+   
+   /* NOTE: If the value of a key is requested but the map does not contain it, the key is
+automatically added to the map with a default value. For example, in the following
+code, the key “aybabtu” with value 0 is added to the map */
+   map<string,int> m;
+   cout << m["aybabtu"] << "\n"; // 0
 
 
 
