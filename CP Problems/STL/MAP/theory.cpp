@@ -114,4 +114,5 @@ code, the key “aybabtu” with value 0 is added to the map */
    unordered_map<int , int> umpp;
    // O(1) in almost all cases
    // O(n) in wrost case, n= container size
+   /* You can not use pair,vector as a key in unordered_map, because these data types has no hash value internally */
 }
