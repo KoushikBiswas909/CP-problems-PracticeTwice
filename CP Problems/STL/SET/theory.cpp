@@ -38,8 +38,8 @@ int main(){
     // Accessing elements from a set
 
     cout<<*st.begin()<<endl;     // Prints 1
-    cout<<*st.begin()+1<<endl;   // Prints 2
-    cout<<*st.begin()+2<<endl;   // Prints 3
+    cout<<*st.begin()+1<<endl;   // Prints 2, because begin prints 1 + 1=2
+    cout<<*st.begin()+2<<endl;   // Prints 3, because begin prints 1+2 = 3
 
     // Erase function ( delete oparation )
 
