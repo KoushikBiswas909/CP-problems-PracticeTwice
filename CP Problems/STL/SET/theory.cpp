@@ -1,6 +1,9 @@
 // *********************        SET        ***********************
 
-/* Where to use set and unordered set ?
+/* A set is a data structure that maintains a collection of elements.
+
+
+Where to use set and unordered set ?
 -> In CP, If in problem can be solved by not storing elements in accsending order,
  always 1st use unordered_set, then if you get TLE then use set, 99% case use Unordered_set.
 
