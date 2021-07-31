@@ -1,0 +1,4 @@
+1.   https://www.codechef.com/COOK131C/problems/XORORED  
+              Ans:     https://www.codechef.com/viewsolution/49358901
+
+
