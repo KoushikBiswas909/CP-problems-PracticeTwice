@@ -4,3 +4,6 @@
 
 3.*   https://www.codechef.com/COOK131C/problems/CHFPLN    
 
+4.*   https://www.codechef.com/LTIME98C/problems/BUTYPAIR
+
+
