@@ -6,4 +6,6 @@
 
 4.*   https://www.codechef.com/LTIME98C/problems/BUTYPAIR
 
+5.    https://leetcode.com/problems/number-of-good-pairs/
+
 
