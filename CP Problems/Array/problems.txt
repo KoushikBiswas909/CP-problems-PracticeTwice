@@ -1,4 +1,5 @@
-1.     https://www.hackerrank.com/challenges/array-left-rotation/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=7-day-campaign
+1.*     https://www.hackerrank.com/challenges/array-left-rotation/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=7-day-campaign
 
-2.
+2.     https://www.hackerearth.com/practice/data-structures/arrays/1-d/practice-problems/algorithm/k-rotation-is-what-you-can-855157f8/
+
 
