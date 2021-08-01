@@ -1,4 +1,5 @@
 1.   https://www.codechef.com/COOK131C/problems/XORORED  
               Ans:     https://www.codechef.com/viewsolution/49358901
 
-
+2.   https://www.codechef.com/COOK130C/problems/XORFOLD
+              Ans:     https://www.codechef.com/viewsolution/49370343
