@@ -88,6 +88,8 @@ int main(){
 
 
     Reference:  https://www.geeksforgeeks.org/power-set/
+    This code has a huge complexity-> (2^N)*N
+    so this code will only run for N= N<18.
 */
 
 #include<bits/stdc++.h>
