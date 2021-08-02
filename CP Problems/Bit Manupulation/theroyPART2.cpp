@@ -1,4 +1,4 @@
-/*  
+/* 1.  
     You are given N integers, some of the element appears twice, two ones'.
     Find the once' appeared elements.
     Input: [1,2,5,1,2,7,3,3,4,4]
@@ -48,7 +48,7 @@ int main(){
 
 
 
-/*  
+/* 2. 
     Given N integers, print XOR of all the subsets.
 
 
@@ -66,4 +66,45 @@ int main(){
       n=n^it;
    }
    cout<<n<<endl;
+}
+
+
+
+
+
+/*  3.
+    *** Genarate all the sub-sets  (Important for interview + CP)
+
+    Input: {3,2,4}
+    Output: 
+           (it will NULL due to {0})
+           3 
+           2 
+           3 2 
+           4 
+           3 4 
+           2 4 
+           3 2 4 
+
+
+    Reference:  https://www.geeksforgeeks.org/power-set/
+*/
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+   int a[3]={3,2,4};
+   int arraysize=3;
+   int numofsubsets= (1<<3); // It can be represented by (2^ arraysize)
+
+   for(int i=0;i<numofsubsets;i++){
+      for(int j=0;j<arraysize;j++){
+         if((i & (1<<j)) != 0){
+            cout<<a[j];
+         }
+      }
+      cout<<endl;
+   }
+
 }
