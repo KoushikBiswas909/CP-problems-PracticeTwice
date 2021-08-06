@@ -9,6 +9,9 @@
 3.* https://codeforces.com/contest/365/problem/A
 
           https://codeforces.com/contest/365/submission/124925948
+          
+4.*  https://codeforces.com/contest/1521/problem/A
+
 
 
 
