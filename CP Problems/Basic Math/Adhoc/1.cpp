@@ -12,6 +12,8 @@
           
 4.*  https://codeforces.com/contest/1521/problem/A
 
+5.   https://codeforces.com/contest/1557/problem/A   (Learn about some predefined cool  function)
+
 
 
 
