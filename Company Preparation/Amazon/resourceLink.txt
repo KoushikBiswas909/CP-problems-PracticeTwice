@@ -2,4 +2,6 @@
 2. https://leetcode.com/list/xyknlrg2/
 3. https://algo.monster/problems/amazon_online_assessment_questions
 4. https://leetcode.com/discuss/interview-question/1333699/Amazon-Online-Assessment-Problems-2021-July
-
+5. (lot's of asked qus on lc discuss)
+   https://leetcode.com/discuss/explore/amazon?currentPage=1&orderBy=hot&query=
+   
