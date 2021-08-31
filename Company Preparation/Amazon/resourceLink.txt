@@ -14,6 +14,6 @@
 *13. https://github.com/topics/amazon-interview
 *14. https://github.com/mansikagrawal/AMAZON-SDE-TEST-SERIES      (Amazon SDE Test series)
 **15. https://github.com/neerazz/FAANG
-
+16. https://gist.github.com/by12380/3b3274b9c996e941c7a1d21425ce50d4      ( Behavarioal Question )
 
 
