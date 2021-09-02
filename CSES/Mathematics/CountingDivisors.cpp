@@ -10,6 +10,7 @@ Some Modification:
 3. Max divisior each X
 -> Change max();
 */
+/*       Optimal Approach: This is best approach                 */
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -39,4 +40,35 @@ int main(){
 
     return 0;
 }
+
+
+
+/*           NAIVE APPROACH:        This Approach accepted in some case but overall TLE            */
+
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long int ll;
+
+int main(){
+  ll t;
+  cin>>t;
+  while(t--){
+    ll x;
+    cin>>x;
+    ll cnt=0,cnt1=0;
+    for(int i=1;i*i<=x;i++){
+      ll temp=x/i;
+      if((x%i==0) && i!=temp){
+        cnt++;
+      }
+
+      if((x%i==0) && (i==temp)){
+        cnt1++;
+      }
+    }
+    cout<<(2*cnt)+cnt1<<endl;
+  }
+}
+
+
 
