@@ -114,7 +114,15 @@ int main(){
    cout<<ans<<endl;
 }
 
-/* But this code has complexity O(N). */
+/* But this code has complexity O(N).
+
+1- Find the remainder of n by moduling it with 4. 
+2- If rem = 0, then xor will be same as n. 
+3- If rem = 1, then xor will be 1. 
+4- If rem = 2, then xor will be n+1. 
+5- If rem = 3 ,then xor will be 0.
+
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
