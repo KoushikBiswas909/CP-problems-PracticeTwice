@@ -112,7 +112,15 @@
    cout << pq.top() <<endl; // Prints 6
    pq.pop(); // delete top element
    cout << pq.top() <<endl; // Prints 5
-
+  
+  
+  ********* NOTE ***********
+   ->pq.push(a[i]); &  pq.top();  //If you want to implement MAX HEAP through priority queue
+   ->pq.push(-a[i]);  &  -pq.top();  //If you want to implement MIN HEAP through priority queue
+  
+  --->MAX HEAP-> If your Problem needs to find something *Smallest*, *Closeest*, *Minimum*
+  --->MIN HEAP-> If your Problem needs to find something *Largest*, *Maximum*
+   
 
    //****************  priority queue with pair  *******************
    priority_queue<pair<int,int>> pq1;
