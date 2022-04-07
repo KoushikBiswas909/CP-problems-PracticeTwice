@@ -98,7 +98,7 @@
                       size()
                       empty()
       It is internally implement heapify property                
-
+      Priority queue fetch smallest, biggest element in O(n) complexity
    */
 
    priority_queue<int> pq;
